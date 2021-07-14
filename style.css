@@ -1,0 +1,154 @@
+html{
+    font-size: 62.5%;/*10px*/
+}
+*{
+    margin: 0px
+}
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body{
+    font-family: 'Lato', sans-serif;  
+    /*background-color: :coral;*/
+}
+@media(min-width:768px){
+    body{
+        background-color: red;
+    }
+}
+
+*{
+    margin:0;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h1{font-size: 5.6 rem /*56 px*/;
+width: 40%;
+margin-left: auto;
+margin-right: auto;}
+p{
+    font-size: 1.6 rem;
+    line-height: 2 rem;
+    margin-top: 10 rem;
+    margin-bottom: 10rem;
+}
+/*utilities*/
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*header*/
+.index-header{
+    background-color: rgb(41, 97, 97);
+    height: 40vh;
+    text-align: center;
+}
+
+    .header-icons i{
+        font-size: 3rem;
+        margin-top: 5rem;
+}
+.menu{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+.menu a:hover{
+
+ 
+    font-weight:700;
+}
+.my-picture{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 10px solid black;
+    padding: 1px;
+}
+
+/*section*/
+li{
+    font-size: 1.6rem;
+}
+
+
+
+ul{
+    background-color: antiquewhite;
+    padding: 5rem;
+    
+}
+ul li{
+    font-size: 1.6rem;
+    background-color: aquamarine;
+    margin: 1rem;
+    padding:1rem;
+    width:30rem;
+    list-style-type: circle;
+}
+
+ul.list-1 li{
+    background-color: antiquewhite;
+    padding: 1rem;
+
+}
+ul.list-1 li a{
+    text-decoration: none;
+    color: black;
+}
+    
+ul li:hover {
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+ul li:hover a{
+    color: white;
+}
+ol.list-1{
+    list-style-type:lower-roman;
+    background-color: cadetblue;
+    padding: 1rem;
+    
+}
+ol.list-1 li{
+    color: white;
+    border: 1px dashed black;
+    padding: 1rem;
+    margin: 1rem;
+    width:30rem;
+}
+/*projects*/
+img.project-img{
+    width: 20rem;
+}
+.projects{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+/*contact*/
+.contact{
+    background-image: url(https://miro.medium.com/max/1094/1*MCn1VrXQznTi3JMtAIGK0g.jpeg
+    );
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 50vh;
+}
+.contact p{
+    text-align: center;
+}
