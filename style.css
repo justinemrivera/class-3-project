@@ -12,7 +12,7 @@ body{
 }
 @media(min-width:768px){
     body{
-        background-color: red;
+        background-color: white;
     }
 }
 
@@ -26,26 +26,40 @@ h1{font-size: 5.6 rem /*56 px*/;
 width: 40%;
 margin-left: auto;
 margin-right: auto;}
+
+
+
 p{
-    font-size: 1.6 rem;
-    line-height: 2 rem;
-    margin-top: 10 rem;
-    margin-bottom: 10rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 /*utilities*/
 .container{
+    font-size:2rem ;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+
+
 }
 
-
-
+.container2{
+    padding-bottom: 4rem;
+    font-size: 2rem;
+}
 /*header*/
 .index-header{
-    background-color: rgb(41, 97, 97);
+    font-size: 20px;
+    font-style: italic;
+    background-color: pink;
     height: 40vh;
     text-align: center;
+    padding-top: 2rem ;
+   
 }
 
     .header-icons i{
@@ -69,14 +83,33 @@ p{
  
     font-weight:700;
 }
+
+/*about me images*/
 .my-picture{
     width: 200px;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
-    border: 10px solid black;
     padding: 1px;
+}
+.photo2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+.photo3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height:200px;
+}
+.photo4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height:200px;
+
 }
 
 /*section*/
@@ -97,7 +130,7 @@ ul li{
     margin: 1rem;
     padding:1rem;
     width:30rem;
-    list-style-type: circle;
+    list-style-type: lower-roman;
 }
 
 ul.list-1 li{
@@ -120,15 +153,17 @@ ul li:hover a{
 }
 ol.list-1{
     list-style-type:lower-roman;
-    background-color: cadetblue;
+    background-color: pink;
     padding: 1rem;
+    
     
 }
 ol.list-1 li{
-    color: white;
+    color: black;
     border: 1px dashed black;
+    padding-top: 2rem;
     padding: 1rem;
-    margin: 1rem;
+    margin: 2rem;
     width:30rem;
 }
 /*projects*/
@@ -136,19 +171,21 @@ img.project-img{
     width: 20rem;
 }
 .projects{
+    font-size: 2rem;
+    text-align: center;
     display:flex;
     justify-content: space-between;
-    background-color: white;
+    list-style-type: circle;
+    
 }
 /*contact*/
 .contact{
-    background-image: url(https://miro.medium.com/max/1094/1*MCn1VrXQznTi3JMtAIGK0g.jpeg
-    );
+    background-image:url(https://images.unsplash.com/photo-1607457561901-e6ec3a6d16cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
     background-position: center center;
     background-size: cover;
     color: white;
     height: 50vh;
+    padding-top: 2rem;
 }
 .contact p{
     text-align: center;
-}
